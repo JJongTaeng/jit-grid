@@ -1,0 +1,47 @@
+{
+  "name": "jit-grid",
+  "description": "Simple to use Grid and Flex components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --progress --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJongTaeng/jit-grid.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JJongTaeng/jit-grid/issues"
+  },
+  "homepage": "https://github.com/JJongTaeng/jit-grid#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "babel-loader": "^8.2.3",
+    "fork-ts-checker-webpack-plugin": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
+    "ts-loader": "^9.2.6",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}
