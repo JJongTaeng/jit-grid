@@ -1,20 +1,22 @@
 {
   "extends": "@tsconfig/node14/tsconfig.json",
   "compilerOptions": {
-    "lib": ["es2020", "dom"],
     "module": "commonjs",
-    "target": "es2020",
+    "lib": ["dom", "es2015"],
+    "target": "es6",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "allowJs": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "strict": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     },
+    "declaration": true,
+    "outDir": "./dist"
   },
   "typeRoots": ["node_modules/@types", "src/@type"],
   "exclude": [
