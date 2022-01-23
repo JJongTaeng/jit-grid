@@ -4,7 +4,6 @@
   "version": "1.0.1",
   "main": "dist/index.js",
   "dependencies": {
-    "jit-grid": "^1.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
