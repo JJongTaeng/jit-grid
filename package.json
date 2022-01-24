@@ -1,7 +1,7 @@
 {
   "name": "jit-grid",
   "description": "Simple to use Grid and Flex components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "dependencies": {
     "classnames": "^2.3.1",
