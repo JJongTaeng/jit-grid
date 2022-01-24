@@ -13,3 +13,5 @@ webpack.config.js
 src
 public
 tsconfig.json
+
+./dist/example

@@ -1,6 +1,6 @@
-import App from "@/App";
-import Name from "@/Name";
+import Row from './Row';
+import Column from "@/Column";
 
 export {
-  Name, App
+  Row, Column
 }

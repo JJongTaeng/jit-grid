@@ -1,10 +1,11 @@
 const { merge } = require('webpack-merge');
-const common = require('./common.js');
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
-module.exports = merge(common, {
+module.exports = {
 
-  entry: './src/index.tsx',
+  entry: './src/example/index.tsx',
 
   module: {
     rules: [
@@ -36,5 +37,13 @@ module.exports = merge(common, {
     alias: {
       '@': path.resolve(__dirname, '../src'),
     },
-  }
-})
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/example/index.html',
+      filename: 'index.html',
+    }),
+    // Typescript(타입스크립트)의 컴파일 속도 향상을 위한 플러그인을 설정
+    new ForkTsCheckerWebpackPlugin(),
+  ],
+}

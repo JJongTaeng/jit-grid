@@ -7,8 +7,8 @@ module.exports = merge(common, {
   mode: 'development',
 
   devServer: {
-    port: 3000,
+    host: 'localhost',
+    port: 8080,
+    open: true,
   },
-
-
 });

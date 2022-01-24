@@ -17,12 +17,4 @@ module.exports = merge(common, {
   //   'react': 'commonjs react',
   //   'react-dom': 'commonjs react-dom',
   // },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-      filename: 'index.html',
-    }),
-    // Typescript(타입스크립트)의 컴파일 속도 향상을 위한 플러그인을 설정
-    new ForkTsCheckerWebpackPlugin(),
-  ],
 });

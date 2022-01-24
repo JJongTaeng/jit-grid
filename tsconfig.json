@@ -16,7 +16,7 @@
       "@/*": ["src/*"]
     },
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
   },
   "typeRoots": ["node_modules/@types", "src/@type"],
   "exclude": [
