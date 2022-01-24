@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Row } from '../../dist/index';
+import Row from '../Row';
 
 const Index = () => {
   return (
