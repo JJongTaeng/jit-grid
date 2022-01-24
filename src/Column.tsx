@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 interface ColumnWidthType {
-  span?: number;
   xxl: number;
   xl: number;
   lg: number;
@@ -19,7 +18,6 @@ interface ColumnProps extends ColumnWidthType{
 const Column = (props: ColumnProps) => {
   return (
     <ColumnContainer
-      span={props.span}
       xxl={props.xxl}
       xl={props.xl}
       lg={props.lg}
