@@ -14,4 +14,4 @@ src
 public
 tsconfig.json
 
-./dist/example
+dist/example
